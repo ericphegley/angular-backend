@@ -20,7 +20,7 @@ import com.example.backend.repository.EmployeeRepository;
 import com.example.backend.exceptions.ResourceNotFoundException;
 import com.example.backend.model.Employee;
 
-@CrossOrigin(origins = "http://localhost:4200") 
+@CrossOrigin(origins = "*") 
 @RestController
 @RequestMapping("/api/v1")
 public class EmployeeController {
